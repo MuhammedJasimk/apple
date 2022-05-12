@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* .navbar-expand-lg{
+    height: 46px !important;
+} */
+.nav-item a{
+    color: #d7d7d7 !important;
+    font-size: 12px;
+
+}
+
+.bg-dark{
+    background-color: rgba(0,0,0,0.8) !important;
+}
+.collapse ul{
+    padding: 0 60px !important;
+}
+.nav-secnd p{
+    font-size: 14px !important;
+    color: #1d1d1f !important;
+}
+.main-hd{
+    font-size: 54px;
+}
+.main-hd h2{
+    font-size: 24px;
+}
+.bg-blk{
+    background-color: #000;
+}
+.watch-bg{
+    background-image: url(../image/promo1.jpg);
+    background-size: cover;
+
+}
+.clr-gray{
+    color: #c6e1e6 !important;
+}
+.bg-gray{
+    background-color: #fbfbfd;
+}
+.w-60{
+    width: 60%;
+}
+.watch-bg div,.tehra-bg div{
+    position: absolute!important;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+}
+.obj-ft-cvr{
+object-fit: cover;
+}
+/* .tehra-bg{
+    background-image: url(../image/promo_tehran.jpg);
+    background-size: cover;
+    height: 100%;
+} */
+footer p{
+    font-size: 12px;
+    color: #6e6e6e;
+}
+.footer-btm-brdr{
+    border-bottom: 1px solid #a9a9a9;
+}
+.footer{
+    width: 20%;
+}
+.text-d-none{
+    text-decoration: none !important;
+    list-style: none  !important;
+}
+.nav-item img{
+    width: 27px;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../image/menu_bar.png);
+}
+.w-15{
+    width: 15%;
+}
+.fa-shopping-bag{
+    font-size: 14px;
+}
+@media only screen and (max-width: 600px) {
+    .footer-resp{
+        display: block !important;
+    }
+    .footer{
+        width: 100% !important;
+    }
+    .d-flex.justify-content-between>.d-flex {
+        display: block !important;
+    }
+    .tehra-img img{
+        width: 50%;
+    }
+    .ipadair img{
+        margin-top: 40px;
+    }
+    .res-d-none{
+        display: none !important;
+    }
+    .d-none{
+        display: block !important;
+    }
+}
+@media only screen and (max-width: 900px) and (min-width: 716px) {...}
